@@ -152,10 +152,16 @@ inicializarFiltros();
 
 Se deben incluir capturas dentro de la carpeta `/assets`:
 
-- Vista general de la aplicación
-- Funcionamiento de filtros
-- Eliminación de elementos
+## 📸 Evidencias
 
+### Vista general
+![Vista general](assets/01-vista-general.png)
+
+### Filtrado
+![Filtrado](assets/02-filtrado.png)
+
+### Eliminación
+![Eliminación](assets/03-eliminacion.png)
 ---
 
 ## 🎯 Conclusión
