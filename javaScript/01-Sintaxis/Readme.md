@@ -1,6 +1,6 @@
-# 📌 Práctica 2 - DOM Básico
+#  Práctica 2 - DOM Básico
 
-## 📖 Descripción
+## Descripción
 
 Esta aplicación web fue desarrollada utilizando HTML, CSS y JavaScript, aplicando el manejo del DOM (Document Object Model).
 
@@ -16,7 +16,7 @@ El objetivo principal es comprender cómo manipular el DOM utilizando JavaScript
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - HTML5
 - CSS3
@@ -24,7 +24,7 @@ El objetivo principal es comprender cómo manipular el DOM utilizando JavaScript
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 /02-dom-basico
@@ -42,9 +42,9 @@ El objetivo principal es comprender cómo manipular el DOM utilizando JavaScript
 
 ---
 
-## ⚙️ Funcionalidades principales
+## Funcionalidades principales
 
-### 🔹 Mostrar información del estudiante
+### Mostrar información del estudiante
 
 Se utiliza `getElementById` para insertar los datos en el HTML.
 
@@ -58,7 +58,7 @@ function mostrarInfoEstudiante() {
 
 ---
 
-### 🔹 Renderizado dinámico de la lista
+### Renderizado dinámico de la lista
 
 Se crean elementos HTML dinámicamente con `createElement`.
 
@@ -81,7 +81,7 @@ function renderizarLista(datos) {
 
 ---
 
-### 🔹 Eliminación de elementos
+### Eliminación de elementos
 
 Se elimina un elemento del array y se vuelve a renderizar la lista.
 
@@ -97,7 +97,7 @@ function eliminarElemento(id) {
 
 ---
 
-### 🔹 Filtrado de elementos
+### Filtrado de elementos
 
 Se filtran los datos según la categoría seleccionada.
 
@@ -122,7 +122,7 @@ function inicializarFiltros() {
 
 ---
 
-### 🔹 Estadísticas
+### Estadísticas
 
 Se muestran datos en tiempo real sobre la lista.
 
@@ -136,7 +136,7 @@ function actualizarEstadisticas() {
 
 ---
 
-## 🚀 Inicialización
+## Inicialización
 
 Al cargar la página se ejecutan las funciones principales:
 
@@ -148,23 +148,20 @@ inicializarFiltros();
 
 ---
 
-## 📸 Evidencias
-
-Se deben incluir capturas dentro de la carpeta `/assets`:
-
-## 📸 Evidencias
+## Evidencias
 
 ### Vista general
 ![Vista general](assets/01-vista-general.png)
 
 ### Filtrado
-![Filtrado](assets/02-filtrado.png)
+![Filtrado](assets/02-filtrado.png) 
 
 ### Eliminación
 ![Eliminación](assets/03-eliminacion.png)
+
 ---
 
-## 🎯 Conclusión
+## Conclusión
 
 Esta práctica permitió comprender:
 
