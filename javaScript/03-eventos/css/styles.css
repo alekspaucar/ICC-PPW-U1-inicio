@@ -1,0 +1,178 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GENERAL */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* CONTENEDOR */
+.container {
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* TITULOS */
+h1, h2 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+/* FORMULARIO */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+/* FOCUS */
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+/* ERRORES */
+.error {
+  border: 2px solid #e74c3c !important;
+}
+
+.error-msg {
+  display: none;
+  font-size: 12px;
+  color: #e74c3c;
+  margin-top: 5px;
+}
+
+.visible {
+  display: block;
+}
+
+/* CONTADOR */
+.char-count {
+  text-align: right;
+  font-size: 12px;
+  color: #999;
+}
+
+/* BOTONES */
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+/* RESULTADO */
+#resultado {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #ecf0f1;
+  display: none;
+}
+
+#resultado.visible {
+  display: block;
+}
+
+/* TAREAS */
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+#nueva-tarea {
+  flex: 1;
+}
+
+/* LISTA */
+#lista-tareas {
+  list-style: none;
+}
+
+.tarea-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9fafc;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.tarea-item:hover {
+  background: #eef3f8;
+}
+
+/* TEXTO TAREA */
+.tarea-texto {
+  cursor: pointer;
+}
+
+.tarea-item.completada .tarea-texto {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* BOTON ELIMINAR */
+.btn-eliminar {
+  background: #e74c3c;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.btn-eliminar:hover {
+  background: #c0392b;
+}
+
+/* ESTADO VACIO */
+.estado-vacio {
+  text-align: center;
+  color: #999;
+  padding: 10px;
+}
+
+/* CONTADOR */
+#contador-tareas {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #555;
+}
